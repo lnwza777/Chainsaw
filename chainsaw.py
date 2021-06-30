@@ -3,7 +3,7 @@
 from web3 import Web3
 import json
 
-w3 = Web3(Web3.HTTPProvider('http:10.10.10.142:9810'))
+w3 = Web3(Web3.HTTPProvider('ip:port'))
 print (w3.isConnected)
 
 target_address = open('address.txt','r').read()
